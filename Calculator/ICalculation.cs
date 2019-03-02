@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Calculator
 {
-    interface ICalculator
+    public interface ICalculator
     {
         double Left { get; set; }
         double Right { get; set; }

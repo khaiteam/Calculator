@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Calculator : ICalculator
+    public class Calculator : ICalculator
     {
         public double Left { get; set; }
         public double Right { get; set; }
